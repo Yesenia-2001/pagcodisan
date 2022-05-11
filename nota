@@ -1,0 +1,63 @@
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+            </div>
+        </div>
+    </div>
+
+
+/* movil pequeño muy pequeño */
+@media(max-width: 575px){
+    #div-contenedor{
+        width: 45%;
+    }
+    .margen{
+        width: 215%;
+    }
+    footer{
+        width: 47%;
+    }
+
+}
+/* movil pequeño */
+@media (min-width: 576px) and (max-width: 767px) {
+    #div-contenedor{
+        width: 60%;
+    }
+    .margen{
+        width: 165%;
+    }
+    footer{
+        width: 60%;
+    }
+}
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+    #div-contenedor{
+        
+        width: 80%;
+        
+    }
+    .margen{
+        width: 125%;
+        
+    }
+    footer{
+        width: 80%;
+    }
+}
+
+/* pc */
+@media (min-width: 992px) {
+    #div-contenedor{
+        width: 100%;
+    }
+    .margen{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+    }
+}
